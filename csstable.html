@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>a3 css tabe</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+            body{
+                margin: 0px;
+            }
+            .font{
+                font-family: 'Lexend Deca', sans-serif;
+            }
+            .container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+
+            #box1{
+                width: 200px;
+                height: 300px;
+                background-color:  hsl(31, 77%, 52%);
+                padding: 10px;
+                color: hsla(0, 0%, 100%, 0.75);
+                border-radius: 10px 0px 0px 10px;
+                padding: 30px;
+            }
+
+            #box2{
+                width: 200px;
+                height: 300px;
+                background-color: hsl(184, 100%, 22%);
+                padding: 30px;
+                color: hsla(0, 0%, 100%, 0.75);
+            }
+
+           
+            
+
+            #box3{
+                width: 200px;
+                height: 300px;
+                background-color: hsl(179, 100%, 13%);
+                padding: 30px;
+                color: hsla(0, 0%, 100%, 0.75);
+                border-radius: 0px 10px 10px 0px;
+            }
+
+            .button{
+                
+                width: 150px;
+                height: 50px;
+                border: none;
+                border-radius: 50px;
+                font-size: 20px;
+                margin-top: 20px;
+                
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div id="box1">
+                <img src="https://bit.ly/3quO4d5" width="30px" height="30px">
+                <h2>Sedans</h2>
+                <p class="font">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+                    or on your next road trip.</p>
+                <button class="button" style="color: orange;" ><strong>Learn More</strong> </button>
+            </div>
+
+            <div id="box2">
+                <img src="https://bit.ly/3quO4d5" width="30px" height="30px">
+                <h2>SUVs</h2>
+                <p class="font">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+                    and off-road adventures.</p>
+                    <button class="button" style="color: hsl(184, 100%, 22%);"><strong>Learn More</strong> </button>
+            </div>
+
+            <div id="box3">
+                <img src="https://bit.ly/3quO4d5" width="30px" height="30px">
+                <h2>Luxury</h2>
+                <p class="font">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+                    rental and arrive in style.</p>
+                    <button class="button" style="color: hsl(179, 100%, 13%);"><strong>Learn More</strong> </button>
+            </div>
+        </div>
+    </body>
+</html>

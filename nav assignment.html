@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>nav-bar assignment</title>
+        <style>
+            *{
+                margin: 0;
+            }
+
+            li, a, button{
+                color: white;
+                
+            }
+            header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 5px 3px;
+                background: #F85353;
+            }
+            .nav-link {
+                list-style: none;
+            }
+
+            .nav-link li{
+                display: inline-block;
+                padding: 0px 20px;
+            }
+
+
+            button{
+                padding: 5px 10px;
+                background-color: #04D3EF;
+                border-radius: 8px;
+                border: none;
+            }
+
+            .button{
+                padding-right: 100px;
+                padding-left: -10px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="https://bit.ly/3quO4d5" alt="logo" width="50px" height="40px">
+            <nav>
+                <ul class="nav-link">
+                    <li><p>Home</p></li>
+                    <li><p>About</p></li>
+                    <li><p>Blog</p></li>
+                    <li><p">Contact</p></li>
+                </ul>
+            </nav>
+            <a class="button" href="#"><button><strong>login</strong></button></a>
+        </header>
+    </body>
+</html>
