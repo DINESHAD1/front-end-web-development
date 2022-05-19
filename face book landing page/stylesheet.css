@@ -1,0 +1,128 @@
+@media screen and (max-width: 1050px){
+    *{
+        max-width: 100%;
+    }
+
+    #fblogo{
+        padding: 0px;
+        
+    }
+}
+body{
+    height: 580px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 94px;
+    margin-left: 50px;
+    background: #f0f2f5;
+    
+    
+    
+}
+
+
+
+#fblogo{
+    width: 250px;
+    height: 250px;
+    margin-right: 300px;
+    margin-left: 110px;
+    
+}
+
+#fbtext{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.fb-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.login{
+    position: relative;
+    width: 400px;
+    height: auto;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin-right: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.ele{
+    margin: 5px;
+    width: 335px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 8px;
+    border-color: rgb(248, 244, 244);
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+
+    font-size: 20px;
+    
+}
+
+#wh{
+    margin: 5px;
+    width: 365px;
+    height: 50px;
+    padding: 5px;
+    color: white;
+    background-color: #1877f2;
+
+}
+
+#line{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fp{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+
+}
+
+#button{
+    width: 210px;
+    height: 50px;
+    background: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+#bt{
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#fontsize{
+    font-size: 17px;
+}
+
+#fontsize1{
+    font-size: 17px;
+}
